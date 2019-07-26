@@ -77,7 +77,7 @@ var BirdCount = BirdCount || (function () {
 
         getFillColor: function () {
             if (this.isReviewed()) {
-                return '#ba33ff';
+                return '#660d94';
             }
 
             switch (this.getValue('status')) {
